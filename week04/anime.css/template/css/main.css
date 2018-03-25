@@ -1,0 +1,12 @@
+ul {
+  background-color: blue;
+  margin: 50px;
+  padding: 50px;
+}
+
+li {
+  background-color: red;
+  margin: 50px;
+  padding: 50px;
+  display: inline-block;
+}

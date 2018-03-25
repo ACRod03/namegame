@@ -1,0 +1,45 @@
+body {
+  text-align: center;
+}
+.boxred{
+  background-color: red;
+}
+.boxblack {
+  background-color: black;
+}
+.boxblue {
+  background-color: blue;
+}
+.boxgreen {
+  background-color: green;
+}
+div {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+}
+@media screen and (max-width:600px) {
+  .boxblack {
+    visibility: hidden;
+  }
+  .boxblue {
+    visibility: hidden;
+  }
+}
+@media screen and (min-width:1000px)  {
+  div {
+    width: 100%;
+  }
+}
+.container {
+  height: 200px;
+  width: 200px;
+  background-color: brown;
+}
+h1 {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
